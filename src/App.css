@@ -1,0 +1,262 @@
+*{
+  margin: 0px;
+  background-color:#04071a;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.App {
+  text-align: center;
+}
+.homePage{
+  
+  height: 700px;
+  
+}
+.HomePageHeader{
+  
+  background: linear-gradient(to right, #6e37ad, 
+  #6340ae, #323788, #8435af); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  padding-top: 100px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+button{
+  height: 60px;
+  width: 160px;
+  background: linear-gradient(to right, #7447a8, 
+  #6e51ad, #3b3f84, #864aa7); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #3b3f84;
+margin: 10px;;
+border-radius:5px;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-size: 20px;
+font-weight:300;
+text-align:center;
+transition: all 0.2s;
+}
+button:hover{
+  color:#494c85;
+  font-weight: 400;
+  border-color:#caafaf;
+  border:0.1em solid #494c85;
+
+  
+  }
+
+/* .signUpDiv{
+  position: relative;
+  top: 50px;
+  
+} */
+.signUpDiv h1{
+  background: linear-gradient(to right, #6e37ad, 
+  #6340ae, #323788, #8435af); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  padding-top: 100px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.inputBox input{
+
+  height: 40px;
+  width: 160px;
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #3b3f84;
+color: #3b3f84;
+margin: 10px;;
+border-radius:5px;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-size: 20px;
+font-weight:300;
+text-align:center;
+transition: all 0.2s;
+}
+.signUpDiv input:focus{
+  /* border:0.1em solid #3b3f84; */
+  border:0.1em solid #50234c;
+}
+label{
+  color: #3b3f84;
+  font-size: 20px;
+  font-weight: 300;
+}
+.signUpDiv h4{
+  color: #3b3f84;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+
+}
+.radio{
+  margin: 10px;
+  accent-color: #090c20;
+  background-color: #090c20;
+
+  
+}
+
+/* .inputBox{
+  padding-left: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: start;
+  
+} */
+
+.logInDiv h1{
+  background: linear-gradient(to right, #6e37ad, 
+  #6340ae, #323788, #8435af); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  padding-top: 100px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 2px;
+ } 
+
+.logInDiv input{
+  height: 40px;
+  width: 160px;
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #3b3f84;
+color: #3b3f84;
+margin: 10px;;
+border-radius:5px;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-size: 20px;
+font-weight:300;
+text-align:center;
+transition: all 0.2s;
+}
+/* .logInDiv input:checked{
+  border:0.1em solid #3b3f84;
+
+} */
+.logInDiv button{
+  /* background-color: rgb(128, 178, 232);
+  border: solid 1px; */
+  height: 40px;
+  /* width: 120px;
+  margin: 15px;
+  border-radius: 5px; */
+}
+
+.detailsDiv{
+  display: flex;
+  justify-content: center;
+  /* text-align: start; */
+}
+
+
+.main h1{
+  background: linear-gradient(to right, #6e37ad, 
+  #6340ae, #323788, #8435af); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  padding-top: 100px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.main h4{
+  background: linear-gradient(to right, #6e37ad, 
+  #6340ae, #323788, #8435af); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  /* padding-top: 100px; */
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.main hr{
+  border: #3b3f84 0.1px solid;
+}
+.productDiv h3{
+  background: linear-gradient(to right, #6e37ad, 
+  #6340ae, #323788, #8435af); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  /* padding-top: 100px; */
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+
+.singleProductDiv{
+  border: #6e37ad 1px solid;
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 10px;
+  
+}
+.singleProductDiv p{
+  background: linear-gradient(to right, #6e37ad, 
+  #6340ae, #323788, #8435af); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.logOutBtn{
+  margin: 30px;
+  height: 40px;
+}
+.manager h1{
+  background: linear-gradient(to right, #6e37ad, 
+  #6340ae, #323788, #8435af); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  padding-top: 100px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+table, th, td {
+  border: 1px solid #3b3f84;
+  border-collapse: collapse;
+  padding: 20px;
+  color: #6340ae;
+  font-weight: 200;
+}
+.table{
+  margin: auto;
+  font-size: 20px;
+  margin-top: 50px;
+
+}
+th{
+  font-weight: 400;
+}
