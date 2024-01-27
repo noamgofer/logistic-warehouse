@@ -11,14 +11,16 @@ export default function SignIn(props) {
     const nav=useNavigate()
 
     const numberLesThen5=()=>{
+        if(number.length>0){
         if(number.length<5){
             return <p style={{color:"#50234c"}}>the number must be with 5 digits.</p>
-        }
+        }}
     }
     const nameValidation=()=>{
+        if(name.length>0){
         if(name.includes(" ")===false||isNaN(name)===false||name.length<5){
             return <p style={{color:"#50234c"}}>the name must contain minimum 4 characters.</p>
-        }
+        }}
     }
 
 
